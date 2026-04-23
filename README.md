@@ -69,47 +69,46 @@ world-cup-predictor/
 ##  Setup and Installation
 
 ### 1. Clone the Repository
-
 ```bash
 git clone https://github.com/your-username/world-cup-predictor.git
 cd world-cup-predictor
-2. Create Virtual Environment
+
+##2. Create Virtual Environment
 python -m venv venv
-
 Activate it:
-
 venv\Scripts\activate
-3. Install Dependencies
+
+##3. Install Dependencies
 pip install -r requirements.txt
-4. Run the Application
+
+##4. Run the Application
 streamlit run app/streamlit_app.py
- Model Details
+
+##Model Details
 Algorithm: Random Forest Classifier
 Input Features:
-Team strength
-Average goals scored
-Goals conceded
+-Team strength
+-Average goals scored
+-Goals conceded
 Output:
-Win / Loss / Draw prediction
+-Win / Loss / Draw prediction
 
- Limitations
-Predictions are based on historical data and may not reflect real-time team performance
-Model accuracy depends on data quality and feature selection
-Not intended for betting or real-world decision-making
+##Limitations
+-Predictions are based on historical data and may not reflect real-time team performance
+-Model accuracy depends on data quality and feature selection
+-Not intended for betting or real-world decision-making
 
- Future Improvements
-Improve prediction accuracy with advanced features
-Integrate live match data APIs
-Add team rankings and player statistics
-Deploy the application online
-Enhance UI with better visualizations
+##Future Improvements
+-Improve prediction accuracy with advanced features
+-Integrate live match data APIs
+-Add team rankings and player statistics
+-Deploy the application online
+-Enhance UI with better visualizations
 
 
 👨‍💻 Author
-
-Rian Mascarenhas
+~Rian Mascarenhas
 
 
 📄 License
-
 This project is for educational purposes and is open for learning and experimentation.
